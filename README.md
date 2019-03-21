@@ -50,5 +50,5 @@ The application should implement the following method:
 
 **Note:**
 
-*All date are in the same timezone.*
+*All dates are in the same timezone.*
 
