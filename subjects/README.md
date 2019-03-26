@@ -1,9 +1,7 @@
 # Internship 2019 subjects
 
-<h2>Bring me the money</h2>
-
 **Given a user situated in location A, and 4 ATMS such that:**
-1. The walking time to reach each ATM:
+1. The walking time between starting point and ATMs as well as between each ATMs is presented below:
     
     | From                 | To           | Duration (minutes) |
     |----------------------|--------------|--------------------|
@@ -29,11 +27,11 @@
 
 3. User has 3 credit cards with the following properties:
 
-    | Credit card | Fee  | Withdraw limit (lei) | Expiration date| Available Amount (lei)|
-    |-------------|------|----------------------|----------------|-----------------------|
-    | SILVER      | 0.2% | 4500                 | 23.05.2020     | 20000                 |
-    | GOLD        | 0.1% | 3000                 | 15.08.2018     | 25000                 |
-    | PLATINUM    | 0%   | 4000                 | 20.03.2019     | 3000                  |
+    | Credit card | Fee  | Withdraw limit (lei) / day  | Expiration date| Available Amount (lei)|
+    |-------------|------|-----------------------------|----------------|-----------------------|
+    | SILVER      | 0.2% | 4500                        | 23.05.2020     | 20000                 |
+    | GOLD        | 0.1% | 3000                        | 15.08.2018     | 25000                 |
+    | PLATINUM    | 0%   | 4000                        | 20.03.2019     | 3000                  |
 
 4. Current date and time is: *19th March, 2019 - 11:30*
 
@@ -54,4 +52,5 @@ The application should implement the following method:
 
 **Note:**
 
-*All dates are in the same timezone.*
+1. *All dates are in the same timezone.*
+2. *Only specified constraints are to be taken in consideration.*
