@@ -1,5 +1,7 @@
 # Internship 2019 subjects
 
+1. <h3>Subject code = _INT01_ </h3>
+
 **Given a user situated in location A, and 4 ATMS such that:**
 1. The walking time between starting point and ATMs as well as between each ATMs is presented below:
     
@@ -36,7 +38,7 @@
 4. Current date and time is: *19th March, 2019 - 11:30*
 
 **Please write an application using either Java or C# programming language in order to:**
-1. <h5>Subject code = _INT01_ </h5>
+
  Determine what ATMs and in which order the user needs to access for withdrawing 7500 lei until 19th March, 2019 - 14:00, with smallest fee available,
 using only valid credit cards (that are not expired at the current date),
 without passing through the same location twice.
