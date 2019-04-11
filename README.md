@@ -11,5 +11,7 @@ For more details on what a fork is and how to do it check [this link](https://he
 6. Create a Pull Request from your repository to the original one (from where your forked it).
 More details [here](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork).
 
+Please name the Pull Request as: [.NET][SUBJECT CODE][Rest of the commit title] or [JAVA][SUBJECT CODE][Rest of the commit title] 
+
 
 For a complete list of GIT instructions and commands check [this link](https://git-scm.com/docs).
