@@ -1,4 +1,4 @@
-**Subject code = INT04**
+**Subject code = INT03**
 
 An employee has an employment start date, an employment end date and contractual holiday rights per year.
 The contractual holiday rights are initially set at 20 days.
