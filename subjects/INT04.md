@@ -49,7 +49,7 @@
  
  The application should implement the following method:
 
-    public Map<Card, Cost> getAtmsRoute() {
+    public Map<Card, Cost> getCardsCost() {
         // TODO: add your code here
     }
 
