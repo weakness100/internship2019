@@ -39,7 +39,7 @@
 **Please write an application using either Java or C# programming language in order to:**
 
 2. <h5>Subject code = INT04 </h5>
- A user wants to do an online transaction for a total of 10000 lei to buy a product with TVA 19%.
+ A user wants to do an online transaction for a total of 10000 lei (including TVA) to buy a product for which the TVA is 19%.
  Write an application that will compute the TVA amount and fee amount payed from each card for the above mentioned product.
  
  If the full amount is not available in one card, the user needs to first move the needed money from
@@ -47,16 +47,23 @@
  
  Transactions can be made only using valid cards. 
  
- The application should implement the following method:
+ The application should implement the following method for Java:
 
     public Map<Card, Cost> getCardsCost() {
         // TODO: add your code here
     }
 
+ And the following method for .NET: 
+ 
+     public Dictionary<Card, Cost> GetCardsCost() {
+         // TODO: add your code here
+     }
+ 
  Where Cost should contain the above mentioned amounts (tva, fee).
 
 **Note:**
 
 1. *All dates are in the same timezone.*
 2. *Only specified constraints are to be taken in consideration.*
-3. *The application should work for any set of similar input*
+3. *The application should work for any set of similar input.*
+4. *Processing time is negligible for transferring and withdrawing the money*
