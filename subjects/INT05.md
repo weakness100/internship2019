@@ -26,16 +26,14 @@
 3. User has 3 economy accounts with the following properties:
 
 
-    | Economy Account | Interest (year)              | Expiration date| Available Amount (RON)|
-    |-----------------|------------------------------|----------------------------------------|
-    |                 |Rate  | Amount Interval (RON) |                |                       |
-    |-----------------|------|-----------------------|----------------|-----------------------|
-    | SILVER          | 0.3% | [0, 500]              |  23.05.2020    | 5000                  |
-    |                 | 0.2% | (500, 5000]           |                |                       |
-    | GOLD            | 0.6% | [0, 500]              |  05.07.2020    | 700                   |
-    |                 | 0.4% | (500, 5000]           |                |                       |
-    | PLATINUM        | 0.9% | [0, 500]              |  15.03.2020    | 300                   |
-    |                 | 0.5% | (500, 5000]           |                |                       |
+    | Economy Account |Interest Rate  (year)         | Amount Interval (RON) | Expiration date| Available Amount (RON)|
+    |-----------------|------------------------------|-----------------------|----------------|-----------------------|
+    | SILVER          | 0.3%                         | [0, 500]              |  23.05.2020    | 5000                  |
+    |                 | 0.2%                         | (500, 5000]           |                |                       |
+    | GOLD            | 0.6%                         | [0, 500]              |  05.07.2020    | 700                   |
+    |                 | 0.4%                         | (500, 5000]           |                |                       |
+    | PLATINUM        | 0.9%                         | [0, 500]              |  15.03.2020    | 300                   |
+    |                 | 0.5%                         | (500, 5000]           |                |                       |
 
 Where each interest rate applies for the corresponding interval of money.
 E.g., A Silver account with 600 RON on it will produce 0.3% * 500 RON + 0.2% * 100 RON after one year. 
