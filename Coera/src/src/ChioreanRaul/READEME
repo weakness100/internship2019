@@ -1,0 +1,8 @@
+This a works by taking the informations of the cards from a file and stores them in a map.
+You can: add new cards,
+         remove cards,
+         and make a transaction.
+When you make a transcation you need to specify the tva the amount of money you want to withdraw and which card you want to use.
+A transaction is valid if the card withdraw limit is < than the amount you want to witdraw, if expiration date is after the current date and if you have a enough money on your card.
+If you don't have enough money it will automatically gather money from different cards starting with the smallest fee.
+Finally it will show a message that shows you the amount that could be gathered on the specific card and the fee + tva that you pay from  that amount.
